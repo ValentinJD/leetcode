@@ -1,6 +1,6 @@
 
 import java.util.*;
-
+// 13. Roman to Integer
 public class RomanToInt {
 
     public static Map<String, Integer> ROMANS_BY_INT = new HashMap<>();
@@ -13,7 +13,6 @@ public class RomanToInt {
         ROMANS_BY_INT.put("C", 100);
         ROMANS_BY_INT.put("D", 500);
         ROMANS_BY_INT.put("M", 1000);
-        ROMANS_BY_INT.put("III", 3);
     }
 
     public static void main(String[] args) {
